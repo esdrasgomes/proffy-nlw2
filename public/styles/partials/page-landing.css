@@ -80,9 +80,15 @@
 
 /* media queris */
 
-@media (max-width: 699px) {
+@media (max-width: 1100px) {
     :root {
         font-size: 40%; /* Modificar as medidas rem */
+    }
+    .logo-container img {
+        height: 8rem;
+    }
+    .hero-image {
+        height: 40rem;
     }
 }
 
